@@ -1,4 +1,4 @@
-# Responsividade
+# Responsividade :desktop_computer: :iphone:
 
 Projeto de introdução à responsividade com HTML e CSS.
 
