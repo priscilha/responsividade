@@ -86,7 +86,12 @@ ul li {
 
 
 }
-
+ul li + li{
+    margin-top: 3.2rem;
+}
+ul li:first-child span {
+    margin-right: 1.2rem;
+  }
 ul li span {
 
     font-weight: 800;
@@ -97,9 +102,27 @@ ul li span {
 }
 
 @media (min-width: 700px){
+
+    body{
+        padding-top: 8rem;
+    }
     main{
         display: flex;
         gap: 10rem;
+        max-width: 1020px;
+
 
     }
+    main > div{
+        max-width: 484px;
+    }
+
+    ul li{
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+
+    }
+
+    
 }
